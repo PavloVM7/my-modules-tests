@@ -41,6 +41,7 @@ func main() {
 	wg.Wait()
 	keys := cache.Keys()
 	slices.Sort(keys)
+	println("The cache contains", cache.Size(), "key-value pairs.")
 	for _, key := range keys {
 		c, _ := cache.Get(key)
 		if c.count != threads {
