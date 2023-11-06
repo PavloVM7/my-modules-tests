@@ -1,3 +1,4 @@
+// Package main contains an example of using the ConcurrentMap
 package main
 
 import (
@@ -25,7 +26,7 @@ func (c *counter) String() string {
 }
 
 func main() {
-	println("Example of using a ConcurrencyMap.")
+	println("Example of using the ConcurrencyMap.")
 	fmt.Printf("Threads number: %d, number of counters: %d\n", threads, number)
 	cache := collections.NewConcurrentMapCapacity[int, *counter](number)
 	var wg sync.WaitGroup
@@ -58,8 +59,9 @@ func loop(cache *collections.ConcurrentMap[int, *counter]) {
 }
 
 func wait() {
+	//revive:disable:empty-block
 	for atomic.LoadInt32(&barrier) == 0 {
-	}
+	} //revive:enable:empty-block
 }
 func start() {
 	atomic.StoreInt32(&barrier, 1)
