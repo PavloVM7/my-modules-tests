@@ -3,3 +3,5 @@ enableAllRules = true
 arguments = [120]
 [rule.add-constant]
 arguments = [{ maxLitCount = "3", allowStrs = "\"\"", allowInts = "0,1", allowFloats = "0.0,0.,1.0,1." }]
+[rule.unhandled-error]
+arguments = ["fmt.Printf"]
