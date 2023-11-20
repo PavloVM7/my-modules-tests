@@ -2,3 +2,5 @@ github.com/PavloVM7/go-concurrency v0.1.0 h1:PEWgs86XbZ1zsN8e4wPGGpG7K5n3EXXi1o4
 github.com/PavloVM7/go-concurrency v0.1.0/go.mod h1:K53I+b55lbJDgoSOK2POVm44qdCT7u4zY9ngbqL1OeA=
 github.com/PavloVM7/go-concurrency v0.2.0 h1:dJ2pmuNUEqu9ReYGmPTTEq4huH07IAlb9oJKX06uSYU=
 github.com/PavloVM7/go-concurrency v0.2.0/go.mod h1:K53I+b55lbJDgoSOK2POVm44qdCT7u4zY9ngbqL1OeA=
+github.com/PavloVM7/go-concurrency v0.2.1 h1:73AFZjOKYv4uJbRuykkDb11RpOJOQnxItc4QazXCScU=
+github.com/PavloVM7/go-concurrency v0.2.1/go.mod h1:K53I+b55lbJDgoSOK2POVm44qdCT7u4zY9ngbqL1OeA=
