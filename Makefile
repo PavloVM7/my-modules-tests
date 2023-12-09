@@ -1,14 +1,14 @@
 GOBIN = ./build/bin
 
-run-go-concurrency-set: clean build-go-concurrency-set
-	$(GOBIN)/go-concurrent-set
-build-go-concurrency-set:
-	go build -o $(GOBIN)/go-concurrent-set ./go-concurrency/ConcurrentSet
+run-concurrent-set: clean build-concurrency-set
+	$(GOBIN)/concurrent-set
+build-concurrency-set:
+	go build -o $(GOBIN)/concurrent-set ./cmd/go-concurrency/ConcurrentSet
 
-run-go-concurrency-map: clean build-go-concurrency-map
-	$(GOBIN)/go-concurrent-map
-build-go-concurrency-map:
-	go build -o $(GOBIN)/go-concurrent-map ./go-concurrency/ConcurrentMap
+run-concurrent-map: clean build-concurrency-map
+	$(GOBIN)/concurrent-map
+build-concurrency-map:
+	go build -o $(GOBIN)/concurrent-map ./cmd/go-concurrency/ConcurrentMap
 
 clean:
 	rm -fr $(GOBIN)/*

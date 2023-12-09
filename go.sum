@@ -1,3 +1,7 @@
+github.com/PavloVM7/go-collections v0.1.0 h1:mGQpZ1uoeYvL9plDHWjJDO1SjzQszB2D0HP2N3/BEiw=
+github.com/PavloVM7/go-collections v0.1.0/go.mod h1:P2Skf3Xy5FtcxqZQvtLn084K/IMJOqJ4frcQRgPcZeM=
+github.com/PavloVM7/go-collections v0.1.1 h1:DQFfKVUn+fGmmniFB/F+8q4BDe6Dt4tcbXbBoPsK9FY=
+github.com/PavloVM7/go-collections v0.1.1/go.mod h1:P2Skf3Xy5FtcxqZQvtLn084K/IMJOqJ4frcQRgPcZeM=
 github.com/PavloVM7/go-concurrency v0.1.0 h1:PEWgs86XbZ1zsN8e4wPGGpG7K5n3EXXi1o48rcWwdPA=
 github.com/PavloVM7/go-concurrency v0.1.0/go.mod h1:K53I+b55lbJDgoSOK2POVm44qdCT7u4zY9ngbqL1OeA=
 github.com/PavloVM7/go-concurrency v0.2.0 h1:dJ2pmuNUEqu9ReYGmPTTEq4huH07IAlb9oJKX06uSYU=
