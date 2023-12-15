@@ -6,5 +6,5 @@ go 1.21
 
 require (
 	github.com/PavloVM7/go-collections v0.1.1
-	github.com/PavloVM7/go-concurrency v0.3.0
+	github.com/PavloVM7/go-concurrency v0.4.0
 )
